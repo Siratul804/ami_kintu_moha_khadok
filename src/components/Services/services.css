@@ -1,0 +1,43 @@
+.services_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #f6f4fe;
+}
+
+.services {
+  background-color: #f6f4fe;
+  padding-top: 129px;
+}
+
+.service_header {
+  text-align: center;
+}
+
+.bar {
+  height: 5px;
+  width: 100px;
+  background: #de0562;
+  margin: 20px auto 20px;
+  border-radius: 5px;
+}
+
+.single_box_services {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 35px 30px;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+.single_box_services:hover {
+  color: white;
+  background-color: #de0562;
+  transition: 0.6s;
+  transform: scale(1.04);
+}
+.single_box_services_icon {
+  width: 60px;
+  height: 60px;
+}

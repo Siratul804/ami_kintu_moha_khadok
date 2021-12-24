@@ -1,0 +1,49 @@
+.platform_bdy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.paltform_bdy_1 {
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 7%);
+  padding: 30px 40px;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  /* "to left" / "to right" - affects initial color */
+  background: linear-gradient(to left, #ffffff 50%, #de0562 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.paltform_bdy_1:hover {
+  background-position: left;
+  color: white;
+}
+
+.paltform_bdy_2_img {
+  width: 100%;
+  height: auto;
+}
+
+.paltform_bdy_3 {
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 7%);
+  padding: 30px 40px;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  /* "to left" / "to right" - affects initial color */
+  background: linear-gradient(to left, #ffffff 50%, #de0562 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+.paltform_bdy_3:hover {
+  background-position: left;
+  color: white;
+}

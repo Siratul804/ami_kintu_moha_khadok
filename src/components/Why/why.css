@@ -1,0 +1,26 @@
+.why_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.why_h1 {
+  font-weight: bold;
+}
+
+.why_correct {
+  height: 30px;
+  width: 30px;
+}
+
+.why_li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.why_img {
+  width: 600px;
+  height: auto;
+}

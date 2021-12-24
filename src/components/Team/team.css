@@ -1,0 +1,23 @@
+.team {
+  padding-top: 8%;
+}
+
+.Team_bdy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.team_body_Circle_img {
+  border-radius: 50%;
+  border: 10px solid #ffffff;
+  transition: 0.6s;
+  height: auto;
+  width: 300px;
+}
+
+.team_body_Circle_img:hover {
+  border: 5px solid #de0562;
+  padding: 5px;
+  border-radius: 50%;
+}
