@@ -6,6 +6,9 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Project from "./components/Project/Project";
 import Team from "./components/Team/Team";
+import Client from "./components/Client/Client";
+import Contact from "./components/Contact/Contact";
+import Video from "./components/Video/Video";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/client" element={<Client />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/video" element={<Video />} />
       </Routes>
     </div>
   );

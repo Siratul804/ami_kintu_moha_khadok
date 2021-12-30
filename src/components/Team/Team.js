@@ -23,6 +23,22 @@ function Team() {
             <p style={{ color: "#de0562", fontSize: "15px" }}>CEO & Founder</p>
           </div>
         </div>
+        <div className="team_body_Circle">
+          <img className="team_body_Circle_img" alt="" src="/icons/Pro.jpg" />{" "}
+          <br />
+          <div className="team_body_Circle_text text-center ">
+            <b style={{ fontSize: "20px" }}>Uzan Ahmed</b> <br />
+            <p style={{ color: "#de0562", fontSize: "15px" }}>CEO & Founder</p>
+          </div>
+        </div>
+        <div className="team_body_Circle">
+          <img className="team_body_Circle_img" alt="" src="/icons/Pro.jpg" />{" "}
+          <br />
+          <div className="team_body_Circle_text text-center ">
+            <b style={{ fontSize: "20px" }}>Uzan Ahmed</b> <br />
+            <p style={{ color: "#de0562", fontSize: "15px" }}>CEO & Founder</p>
+          </div>
+        </div>
       </div>
     </div>
   );

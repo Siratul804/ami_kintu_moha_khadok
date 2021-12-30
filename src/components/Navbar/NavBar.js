@@ -35,8 +35,8 @@ function NavBar() {
                 </Link>
               </Nav.Link>
 
-              <Nav.Link href="/" className=" NavBar_Link  ">
-                <Link to="/" className="NavBar_Link_hover ">
+              <Nav.Link href="/video" className=" NavBar_Link  ">
+                <Link to="/video" className="NavBar_Link_hover ">
                   Videos
                 </Link>
               </Nav.Link>
@@ -56,12 +56,12 @@ function NavBar() {
                 </Link>
               </Nav.Link>
               <Nav.Link className=" NavBar_Link  ">
-                <Link to="/" className="NavBar_Link_hover ">
+                <Link to="/client" className="NavBar_Link_hover ">
                   Client
                 </Link>
               </Nav.Link>
               <Nav.Link className=" NavBar_Link  ">
-                <Link to="/" className="NavBar_Link_hover ">
+                <Link to="/contact" className="NavBar_Link_hover ">
                   Contact
                 </Link>
               </Nav.Link>
