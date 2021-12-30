@@ -5,7 +5,7 @@ import Shape from "../../assets/shape-1.png";
 
 function Header() {
   return (
-    <div className="header">
+    <div className="header  ">
       <div className="heder_box py-4 ">
         <div className="header_box_one py-4 ">
           <div className="shape_box_one">

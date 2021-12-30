@@ -96,3 +96,26 @@
 .single_fre:hover {
   transform: scale(1.1);
 }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 80px 5px 5px 15px;
+  }
+  .banner_img {
+    height: 200px;
+    width: auto;
+    position: relative;
+    animation: mybanner 5s infinite;
+  }
+  .single_fre {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 15px 35px rgb(0 0 0 / 10%);
+    box-shadow: 0px 15px 35px rgb(0 0 0 / 10%);
+    padding: 15px 15px;
+    border-radius: 5px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+}

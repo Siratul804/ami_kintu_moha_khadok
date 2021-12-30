@@ -9,11 +9,17 @@ import Team from "./components/Team/Team";
 import Client from "./components/Client/Client";
 import Contact from "./components/Contact/Contact";
 import Video from "./components/Video/Video";
+import Footer from "./components/Footer/Footer";
+
+import ScrollToTop from "./ScrollToTop";
+
+import ToTop from "./components/ToTop/ToTop";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -24,6 +30,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/video" element={<Video />} />
       </Routes>
+      <Footer />
+      <ToTop />
     </div>
   );
 }

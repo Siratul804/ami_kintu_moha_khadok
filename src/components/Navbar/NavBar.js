@@ -1,25 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 // import Pro from "../../assets/Pro.jpg";
 
 function NavBar() {
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    });
+  }, []);
+
   return (
-    <div className="NavBar" style={{ backgroundColor: "#fafafa" }}>
+    <div>
       <Navbar
         collapseOnSelect
         expand="lg"
         bg="muted"
         fixed="top"
-        className="NavBar"
+        className={`${isSticky ? "nav_bar" : "NavBar"}`}
       >
         <h3 className="text-center  ami_kintu ">
-          <img src="/icons/name.PNG" alt="" height="70px" width="auto" />
+          <a href="/">
+            <img src="/icons/name.PNG" alt="" height="70px" width="auto" />
+          </a>
         </h3>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          style={{ marginLeft: "45%" }}
+          style={{ marginRight: "10px" }}
         />
         <Container>
           <Navbar.Collapse id="responsive-navbar-nav">

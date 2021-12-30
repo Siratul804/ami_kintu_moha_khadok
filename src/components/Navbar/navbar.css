@@ -5,6 +5,12 @@
   padding-right: 25px !important ;
 }
 
+.nav_bar {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 14px 0 rgb(0 0 0 / 4%);
+  border-bottom: 1px solid rgba(225, 226, 230, 0.5);
+}
+
 .NavBar {
   background-color: #fafafa;
 }

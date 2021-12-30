@@ -7,7 +7,11 @@ function Contact() {
     <div className="contact">
       <div className="contact_box">
         <div className="contact_box_left">
-          <img src="/gallery/analysis.png" alt="" />
+          <img
+            src="/gallery/analysis.png"
+            alt=""
+            className="contact_box_img_one"
+          />
         </div>
         <div className="contact_box_right">
           <p style={{ color: "#de0562", fontWeight: "bold" }}>ANALYSIS</p>

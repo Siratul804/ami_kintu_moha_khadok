@@ -8,6 +8,9 @@
   padding-top: 100px;
 }
 
+.contact_box_img_one {
+}
+
 .contact_btn {
   display: inline-block;
   padding: 10px 40px;
@@ -20,4 +23,14 @@
 
 .contact_btn:hover {
   background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    padding: 20px;
+  }
+  .contact_box_img_one {
+    width: 350px;
+    height: auto;
+  }
 }
