@@ -1,3 +1,9 @@
 .Project {
   padding-top: 8%;
 }
+
+@media only screen and (max-width: 600px) {
+  .Project {
+    padding-top: 25%;
+  }
+}

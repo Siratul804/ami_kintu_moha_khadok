@@ -6,8 +6,7 @@ function Video() {
   let YouVideos = [
     {
       url: "https://youtu.be/dRyAFqOTAtE",
-      title:
-        "The 69 Hotel & resturent রুফটপ রেস্টুরেন্ট এই প্রথমবার এত রাতে সুইমিং পুলে বসে রাতের ডিনার করলাম!",
+      title: "The 69 Hotel & resturent ",
     },
     {
       url: "https://youtu.be/nH3smx7RCTc",
@@ -16,6 +15,14 @@ function Video() {
     {
       url: "https://youtu.be/FwBUqEebfy4",
       title: "Roadside kitchen Mohammadpur challenge jite galam",
+    },
+    {
+      url: "https://youtu.be/PNN58HDo3-w",
+      title: "Rafsan vai er sathe Habiby's e Challenges nilam",
+    },
+    {
+      url: "https://youtu.be/PNN58HDo3-w",
+      title: "Rafsan vai er sathe Habiby's e Challenges nilam",
     },
     {
       url: "https://youtu.be/PNN58HDo3-w",
@@ -43,6 +50,8 @@ function Video() {
                 url={data.url}
                 style={{ padding: "2%" }}
                 controls={true}
+                width="360px"
+                height="260px"
               />
               <p className="video_box_p">{data.title}</p>
             </div>

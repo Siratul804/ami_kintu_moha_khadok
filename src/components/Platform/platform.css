@@ -53,4 +53,7 @@
     width: 100%;
     height: auto;
   }
+  .platform_header_p {
+    font-size: 15px;
+  }
 }

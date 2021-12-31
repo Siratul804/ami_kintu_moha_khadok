@@ -15,7 +15,7 @@ function Header() {
             Marketing Agency with <br /> Excellence Service
           </h1>{" "}
           <br />
-          <p>
+          <p className="heder_box_one_p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua.
           </p>

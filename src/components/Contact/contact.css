@@ -27,10 +27,13 @@
 
 @media only screen and (max-width: 600px) {
   .contact {
-    padding: 20px;
+    padding-top: 120px;
   }
   .contact_box_img_one {
     width: 350px;
     height: auto;
+  }
+  .contact_box_right {
+    padding: 15px;
   }
 }

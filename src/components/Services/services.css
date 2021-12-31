@@ -44,6 +44,13 @@
 
 @media only screen and (max-width: 600px) {
   .services {
-    padding: 40px;
+    padding-top: 120px;
+  }
+  .services_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f6f4fe;
+    padding: 20px;
   }
 }

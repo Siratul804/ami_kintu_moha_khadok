@@ -10,7 +10,7 @@ function Platform() {
           Powerful Platform That Enhances Business
         </h1>
         <div className="bar"></div>
-        <p className="text-center">
+        <p className="text-center platform_header_p ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua.
         </p>
