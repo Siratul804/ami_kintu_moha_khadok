@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 // import Pro from "../../assets/Pro.jpg";
 
@@ -38,47 +38,39 @@ function NavBar() {
         <Container>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="NavBar_Nav">
-              <Nav.Link href="/" className=" NavBar_Link  ">
-                <Link to="/" className="NavBar_Link_hover ">
+              <div className="Nav_Link_box">
+                <NavLink to="/" className="NavBar_Link_hover">
                   Home
-                </Link>
-              </Nav.Link>
-              <Nav.Link href="/about" className=" NavBar_Link  ">
-                <Link to="/about" className="NavBar_Link_hover ">
-                  About
-                </Link>
-              </Nav.Link>
+                </NavLink>
 
-              <Nav.Link href="/video" className=" NavBar_Link  ">
-                <Link to="/video" className="NavBar_Link_hover ">
+                <NavLink to="/about" className="NavBar_Link_hover ">
+                  About
+                </NavLink>
+
+                <NavLink to="/video" className="NavBar_Link_hover ">
                   Videos
-                </Link>
-              </Nav.Link>
-              <Nav.Link href="/projects" className=" NavBar_Link  ">
-                <Link to="/projects" className="NavBar_Link_hover ">
+                </NavLink>
+
+                <NavLink to="/projects" className="NavBar_Link_hover ">
                   Projects
-                </Link>
-              </Nav.Link>
-              <Nav.Link href="/services" className=" NavBar_Link  ">
-                <Link to="/services" className="NavBar_Link_hover ">
+                </NavLink>
+
+                <NavLink to="/services" className="NavBar_Link_hover ">
                   Services
-                </Link>
-              </Nav.Link>
-              <Nav.Link className=" NavBar_Link  ">
-                <Link to="/team" className="NavBar_Link_hover ">
+                </NavLink>
+
+                <NavLink to="/team" className="NavBar_Link_hover ">
                   Our-Team
-                </Link>
-              </Nav.Link>
-              <Nav.Link className=" NavBar_Link  ">
-                <Link to="/client" className="NavBar_Link_hover ">
+                </NavLink>
+
+                <NavLink to="/client" className="NavBar_Link_hover ">
                   Client
-                </Link>
-              </Nav.Link>
-              <Nav.Link className=" NavBar_Link  ">
-                <Link to="/contact" className="NavBar_Link_hover ">
+                </NavLink>
+
+                <NavLink to="/contact" className="NavBar_Link_hover ">
                   Contact
-                </Link>
-              </Nav.Link>
+                </NavLink>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
